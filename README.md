@@ -9,21 +9,21 @@ otras sin documentar, por lo que necesita saber exactamente qué misiones están
 cuáles no.
 Entrada.
 La entrada está formada de la siguiente manera:
-● Una cadena de números, donde el primer dígito (N) hace referencia al número de
+Una cadena de números, donde el primer dígito (N) hace referencia al número de
 jounin que colaboran en la traducción.
-● A continuación aparecen N parejas de números (xi, yi), i=1,...,N, que indican la
+A continuación aparecen N parejas de números (xi, yi), i=1,...,N, que indican la
 primera y la última página del registro de misiones documentadas por cada jounin.
-● Siempre se cumple que 1 ≤ xi ≤ yi ≤ 50.000.000.
+Siempre se cumple que 1 ≤ xi ≤ yi ≤ 50.000.000.
 Ejemplos.
 2 1 5 6 10
-● El primer número específica 2 jounin, por lo que se necesitan 2 pares de números
-● 1 5 Especifica que el primer jounin documentó las misiones 1, 2, 3, 4, 5
-● 6 10 Especifica que el segundo jounin documentó las misiones 6, 7, 8, 9, 10
+El primer número específica 2 jounin, por lo que se necesitan 2 pares de números
+1 5 Especifica que el primer jounin documentó las misiones 1, 2, 3, 4, 5
+6 10 Especifica que el segundo jounin documentó las misiones 6, 7, 8, 9, 10
 La salida esperada es 10, que representa la cantidad de misiones únicas documentadas 1,
 2, 3, 4, 5, 6, 7, 8, 9, 10
 3 1 5 3 5 5 7
-● El primer número específica 3 jounin, por lo que se necesitan 3 pares de números
-● 1 5 Especifica que el primer jounin documentó las misiones 1, 2, 3, 4, 5
-● 3 5 Especifica que el segundo jounin documentó las misiones 3, 4, 5
-● 5 7 Especifica que el tercer jounin documentó las misiones 5, 6, 7
+El primer número específica 3 jounin, por lo que se necesitan 3 pares de números
+1 5 Especifica que el primer jounin documentó las misiones 1, 2, 3, 4, 5
+3 5 Especifica que el segundo jounin documentó las misiones 3, 4, 5
+5 7 Especifica que el tercer jounin documentó las misiones 5, 6, 7
 La salida esperada es 7 dado que solo se documentaron las misiones 1, 2, 3, 4, 5, 6 y 7
